@@ -1,1 +1,1 @@
-# EspressiScale_flash
+# EspressiScale Installation Guide
