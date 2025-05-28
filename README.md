@@ -1,1 +1,0 @@
-# EspressiScale Installation Guide
