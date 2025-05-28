@@ -5,7 +5,6 @@ permalink: /espressiscale-installation/
 ---
 
 <style>
-  /* Apple + Google-inspired minimalism */
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     margin: 0;
