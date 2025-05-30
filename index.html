@@ -45,6 +45,7 @@
       cursor: pointer;
       transition: background-color 0.2s ease, box-shadow 0.2s ease;
       outline: none;
+      margin: 0.5rem;
     }
     .install-btn:hover {
       background-color: #005bb5;
@@ -76,7 +77,7 @@
       <esp-web-install-button id="installButton" manifest="webflash/manifest.json">
         <button slot="activate" class="install-btn">Install</button>
       </esp-web-install-button>
-      <a href="webflash/firmware.bin" download class="install-btn">Download firmware</a>
+      <a href="webflash/firmware.bin" download class="install-btn">Download Latest</a>
       <p class="note">Close any programs using your device’s COM port (e.g., Serial Monitor) before flashing.</p>
     </div>
     <div id="notSupported" style="display: none;">
