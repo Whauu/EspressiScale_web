@@ -71,16 +71,13 @@
     <h1>EspressiScale Installation</h1>
     <div id="main" style="display: none;">
       <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
-      <esp-web-install-button manifest="calibration/manifest.json">
-        <button slot="activate" class="install-btn">Calibration</button>
-      </esp-web-install-button>
       <esp-web-install-button id="installButton" manifest="webflash/manifest.json">
         <button slot="activate" class="install-btn">Install</button>
       </esp-web-install-button>
+      <esp-web-install-button id="installBetaButton" manifest="beta/manifest.json">
+        <button slot="activate" class="install-btn">Install Beta</button>
+      </esp-web-install-button>
       <div style="margin-top: 0.5rem;">
-        <esp-web-install-button id="installBetaButton" manifest="beta/manifest.json">
-          <button slot="activate" class="install-btn">Install Beta</button>
-        </esp-web-install-button>
       </div>
       <p class="note">Close any programs using your device’s COM port (e.g., Serial Monitor) before flashing.</p>
     </div>
