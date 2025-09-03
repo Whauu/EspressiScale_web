@@ -1,6 +1,6 @@
 {
   "name": "EspressiScale",
-  "version": "1.3.3",
+  "version": "2.0.1",
   "new_install_prompt_erase": false,
   "builds": [
     {
